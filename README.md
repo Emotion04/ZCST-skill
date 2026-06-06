@@ -54,7 +54,32 @@ cp docs/*.md ~/.claude/skills/zcst/docs/
 
 ## 贡献
 
-欢迎提交 Issue 和 Pull Request 来改进这个项目。
+欢迎参与！无论是纠错、补充新内容，还是完善缺失的知识库。
+
+### 快速参与
+
+- **发现信息过时或错误？** → 提 [Issue](https://github.com/ZCST-OpenCS/ZCST-skill/issues)，附上正确信息的来源链接
+- **想直接动手改？** → Fork → 修改 → 提 PR，reviewer 会按验证标准审核
+- **想贡献新知识库？** → 先看看有没有对应的 [Issue](https://github.com/ZCST-OpenCS/ZCST-skill/issues) 认领，避免重复劳动
+
+详细规范见 [CONTRIBUTING.md](./CONTRIBUTING.md)。
+
+## 开发者
+
+本项目采用两层架构：
+
+- **用户侧**：安装 skill 后直接用 `/zcst` 提问，skill 读取本地文档 + 必要时联网核实官方公告
+- **开发者侧**：维护者使用 kimi-webbridge 采集小红书、贴吧等闭源平台信息，整理后更新知识库
+
+### 维护节奏
+
+| 时间点 | 检查内容 |
+|--------|---------|
+| 6 月 | 毕业离校流程、暑假安排 |
+| 8 月 | 新生入学指南、新学年校历 |
+| 12 月 | 转专业时间、寒假安排 |
+
+大部分内容（床铺尺寸、食堂推荐、穿衣建议、邮寄地址）无需每学期更新。详见 [CONTRIBUTING.md](./CONTRIBUTING.md#开发者)。
 
 ## 许可证
 
